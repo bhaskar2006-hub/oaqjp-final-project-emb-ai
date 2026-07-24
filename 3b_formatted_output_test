@@ -1,0 +1,10 @@
+cat << 'EOF' > 3b_formatted_output_test
+theia@theiadocker-bhaskarredd9:/home/project/final_project/oaqjp-final-project-emb-ai$ python3
+Python 3.10.12 (main, Aug 15 2025, 14:32:43) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> from emotion_detection import emotion_detector
+>>> 
+>>> emotion_detector('I am so happy I am doing this')
+{'anger': 0.0043079085, 'disgust': 0.00041127237, 'fear': 0.0037504788, 'joy': 0.9918804, 'sadness': 0.014091322, 'dominant_emotion': 'joy'}
+>>> exit()
+EOF
